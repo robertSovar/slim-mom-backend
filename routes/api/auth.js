@@ -1,6 +1,6 @@
 import express from "express";
 import authController from "../../controller/authController.js";
-import { STATUS_CODES } from "./../../utils/statusCodes.js";
+import { STATUS_CODES } from "../../utils/statusCodes.js";
 import User from "../../models/User.js";
 import handleError from "../../utils/handleError.js";
 
